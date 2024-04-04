@@ -1,0 +1,143 @@
+.aa {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.aa:hover {
+  border-bottom: 0.1px solid rgb(165, 164, 164);
+}
+
+.continer {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.nav_top {
+  background: rgb(0, 0, 0);
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.nav h5 {
+  color: #fff;
+  font-family: Poppins;
+}
+
+.a_shop {
+  color: rgb(250, 250, 250);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.navbar {
+  height: 94px;
+  border-bottom: 0.5px solid rgb(219, 218, 218);
+}
+
+.navbar_flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.nav_text h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.a_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.input__search {
+  width: 243px;
+  height: 38px;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  flex-grow: 0;
+  gap: 15px;
+  border-radius: 4px;
+  border: 0;
+  background: rgb(245, 245, 245);
+  padding: 5px;
+}
+
+#search {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  width: 243px;
+  height: 38px;
+  background: rgb(245, 245, 245);
+}
+
+.nav_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 40px;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.shop_2 {
+  display: flex;
+  gap: 10px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+  background-color: rgb(0, 0, 0);
+}
+
+.menu {
+  display: flex;
+  gap: 190px;
+}
+.lupa {
+  height: 28px;
+  width: 28px;
+}
